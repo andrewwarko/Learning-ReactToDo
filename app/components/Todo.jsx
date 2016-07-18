@@ -7,7 +7,7 @@ var Todo = React.createClass({
       <div>
           {id}. {text}
       </div>
-    )
+    );
   }
 });
 
