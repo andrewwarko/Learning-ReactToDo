@@ -10,7 +10,7 @@ export var AddTodo = React.createClass({
 
         if (todoText.length > 0) {
             this.refs.todoText.value = '';
-            dispatch(actions.addTodo(todoText));
+            dispatch(actions.startAddTodo(todoText));
         } else {
             // Puts user back in field that they filled out wrong.
             this.refs.todoText.focus();
